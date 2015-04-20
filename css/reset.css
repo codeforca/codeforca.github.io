@@ -1,8 +1,12 @@
 .jumbotron {
 	margin-top: -60px;
+	text-align: center;
 }
 .jumbotron .container {
 		margin-bottom:-20px;
+}
+.jumbotron h1 {
+	font-weight: 600;
 }
 .navbar-brand, a.navbar-brand, a.navbar-brand:active, a.navbar-brand:link, a.navbar-brand:visited, a.navbar-brand:hover {
 	font-size: 125%;
