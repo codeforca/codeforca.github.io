@@ -1,15 +1,18 @@
 .jumbotron {
-	margin-top: -60px;
+	margin-top: -50px;
 	text-align: center;
+	background: #e21a23;
+	color: #fff;
 }
 .jumbotron .container {
-		margin-bottom:-20px;
+		margin-bottom:-10px;
 }
 .jumbotron h1 {
 	font-weight: 600;
 }
 .navbar-brand, a.navbar-brand, a.navbar-brand:active, a.navbar-brand:link, a.navbar-brand:visited, a.navbar-brand:hover {
 	font-size: 125%;
+	font-weight: 600;
 }
 .bg-primary {
 	background-color:#6ec8c7;
