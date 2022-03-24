@@ -1,0 +1,43 @@
+name: Code for Canda
+description: Helping Canada Through Code
+meta_description: "Helping Canada Through Code."
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 10
+paginate_path: "/page:num/"
+baseurl: /
+domain_name: "https://www.codeforcanada.io"
+google_analytics: "UA-61003106-13"
+plugins: [jekyll-paginate]
+
+author: Code for Canda
+author_desc: Author description goes here.
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  posts:
+    output: true
+    permalink: /:slug/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
